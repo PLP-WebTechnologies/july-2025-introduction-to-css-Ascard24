@@ -1,1 +1,86 @@
+/* ==============================
+   General Reset & Base Styles
+============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Makes box sizing predictable */
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333;
+    padding: 20px;
+}
+
+/* ==============================
+   Header Styles
+============================== */
+.header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #00264d;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.nav-bar a:hover {
+    background-color: #0066cc;
+    border-radius: 5px;
+}
+
+/* ==============================
+   Section Styles
+============================== */
+.intro {
+    background-color: #e6f0ff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #99c2ff;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Demonstrating Box Model on Button */
+.btn {
+    background-color: #004080;
+    color: white;
+    padding: 10px 15px; /* Inner spacing */
+    border: 2px solid #00264d; /* Border */
+    margin-top: 10px; /* Outer spacing */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0066cc;
+}
+
+/* ==============================
+   Footer Styles
+============================== */
+.footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
